@@ -42,4 +42,8 @@ public class AppTest
     {
         assertEquals("Hello JMB!", App.hello("Hello JMB!"));
     }
+
+    public void testBonjour() {
+        assertEquals("Bonjour Monde !", App.bonjour());
+    }
 }
